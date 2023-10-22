@@ -4,6 +4,7 @@ title: ''
 date: 2022-10-24
 type: landing
 
+
 sections:
   - block: skills
     content:
@@ -14,15 +15,18 @@ sections:
     design:
       columns: '1'
 
+
  
   - block: collection
     id: featured
     content:
-      title: Featured Publications
+      title: Machine Learning / Robotics
+      subtitle: Featured Projects
       filters:
         folders:
           - publication
-        featured_only: true
+        featured_only: false
+        # tag: for_portfolio
     design:
       columns: '2'
       view: card
